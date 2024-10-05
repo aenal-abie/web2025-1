@@ -1,0 +1,12 @@
+p{
+    color: orange;
+}
+
+label {
+    color: green;
+}
+
+input {
+    color: blue;
+    border-color: red;
+}
