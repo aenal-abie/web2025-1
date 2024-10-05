@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Form HTML Lengkap</title>
+</head>
+<body>
+
+<h2>Formulir Data Pengguna</h2>
+
+<form action="proses.html" method="POST">
+    <!-- Input Teks -->
+    <label for="nama">Nama:</label><br>
+    <input type="text" id="nama" name="nama"><br><br>
+
+    <!-- Input Email -->
+    <label for="email">Email Saya:</label><br>
+    <input type="email" id="email" name="email_saya"><br><br>
+    
+    <!-- Input Email -->
+    <label for="email_lain">Email Lainya:</label><br>
+    <input type="email" id="email_lain" name="email_lainya"><br><br>
+
+
+    <!-- Input Password -->
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password"><br><br>
+
+    <!-- Input Nomor -->
+    <label for="usia">Usia:</label><br>
+    <input type="number" id="usia" name="usia" min="1" max="100"><br><br>
+
+    <!-- Input Tanggal -->
+    <label for="tanggal_lahir">Tanggal Lahir:</label><br>
+    <input type="date" id="tanggal_lahir" name="tanggal_lahir"><br><br>
+
+    <!-- Input Radio Button -->
+    <label>Jenis Kelamin:</label><br>
+    <input type="radio" id="pria" name="gender" value="Pria">
+    <label for="pria">Pria</label><br>
+    <input type="radio" id="wanita" name="gender" value="Wanita">
+    <label for="wanita">Wanita</label><br><br>
+
+
+    <!-- Input Radio Button -->
+    <label>Jurusan:</label><br>
+    <input type="radio" id="jurusan" name="jurusan" value="Pria">
+    <label for="pria">TI</label><br>
+    <input type="radio" id="wanita" name="jurusan" value="Wanita">
+    <label for="wanita">Ilkom</label><br><br>
+
+
+    <!-- Input Checkbox -->
+    <label>Hobi:</label><br>
+    <input type="checkbox" id="membaca" name="hobi" value="Membaca">
+    <label for="membaca">Membaca</label><br>
+    <input type="checkbox" id="bermain" name="hobi" value="Bermain">
+    <label for="bermain">Bermain</label><br>
+    <input type="checkbox" id="bermain" name="hobi" value="Tidur">
+    <label for="bermain">Tidur</label><br><br>
+
+
+    <!-- Pilihan Dropdown -->
+    <label for="pekerjaan">Pekerjaan:</label><br>
+    <select id="pekerjaan" name="pekerjaan">
+        <option value="pelajar">Pelajar</option>
+        <option value="mahasiswa">Mahasiswa</option>
+        <option value="karyawan">Karyawan</option>
+        <option value="lainnya">Lainnya</option>
+    </select><br><br>
+
+    <!-- Textarea -->
+    <label for="alamat">Alamat:</label><br>
+    <textarea id="alamat" name="alamat" rows="4" cols="50"></textarea><br><br>
+
+    <!-- Upload File -->
+    <label for="file">Unggah Foto:</label><br>
+    <input type="file" id="file" name="file"><br><br>
+
+    <!-- Tombol Submit -->
+    <input type="submit" value="Kirim">
+    <input type="reset" value="Batal">
+
+</form>
+
+</body>
+</html>
